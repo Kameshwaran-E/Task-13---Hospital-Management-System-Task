@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/search.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <h1><%= option %></h1>
+
+        <form action="/api/admin/<%= url %>" method="post">
+          <label for="">Customer id</label>
+          <input
+            type="text"
+            placeholder="Enter the customer id"
+            name="patient_id"
+          />
+          <button><%= buttonName %></button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

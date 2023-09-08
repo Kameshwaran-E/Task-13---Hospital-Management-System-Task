@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/searchResults.css">
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="wrapper">
+      <h1><%= patient_name %> information</h1>
+
+        <form>
+
+          <label for="">Patient id</label>
+          <input
+            type="text"
+            disabled
+            value="<%= patient_id %>"
+            name="patient_id"
+          />
+          <label for="">Patient name</label>
+          <input
+            type="text"
+            disabled
+            value="<%= patient_name %>"
+            name="patient_name"
+          />
+          <label for="">Patient age</label>
+          <input
+            type="text"
+            disabled
+            value="<%= patient_age %>"
+            name="patient_age"
+          />
+          <label for="">Patient address</label>
+          <input
+            type="text"
+            disabled
+            value="<%= patient_address %>"
+            name="patient_address"
+          />
+          <label for="">Patient mobile no.</label>
+          <input
+            type="text"
+            disabled
+            value="<%= patient_mobileNo %>"
+            name="patient_mobileNo"
+          />
+          <label for="">Patient disease</label>
+          <input
+            type="text"
+            disabled
+            value="<%= patient_disease %>"
+            name="patient_disease"
+          />
+        </form>
+        <a href="/api/admin/home">Home</a>
+      </div>
+    </div>
+  </body>
+</html>

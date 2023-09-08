@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+  font-family: sans-serif;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  margin-top: 200px;
+  cursor: pointer;
+  color: black;
+  background-color: #adc4ccff;
+  padding: 10px;
+  border-radius: 10px;
+}
